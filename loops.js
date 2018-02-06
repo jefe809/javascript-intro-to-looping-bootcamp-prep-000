@@ -21,13 +21,13 @@ function whileLoop(n){
 
 function doWhileLoop(array){
   function maybeTrue() {
-  return array >= 0
+  array.length >= 0;
     
   }
   
   do{
-    array.
-  }
+    array.pop();
+  }while (array.length > 0 && maybeTrue());
  
-
+return array;
 }
